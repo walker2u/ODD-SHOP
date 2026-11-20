@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#f3e9d2" />
+    <meta name="description" content="Run a tiny shop for very odd customers. Drag the right items onto the counter and make their strange wishes come true." />
+    <link rel="icon" type="image/png" href="./favicon.png" />
+    <title>ODD SHOP</title>
+    <!-- platform-sdk -->
+    <style>
+      html, body { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #f3e9d2; }
+      body { touch-action: none; -webkit-user-select: none; user-select: none; -webkit-tap-highlight-color: transparent; overscroll-behavior: none; }
+      canvas { display: block; position: fixed; left: 0; top: 0; touch-action: none; }
+      #safe { position: fixed; inset: 0; pointer-events: none; visibility: hidden;
+        padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left); }
+    </style>
+    <script type="module" crossorigin src="./assets/index-DuSF44G-.js"></script>
+  </head>
+  <body>
+    <canvas id="game"></canvas>
+    <div id="safe"></div>
+  </body>
+</html>
